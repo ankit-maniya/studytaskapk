@@ -30,13 +30,18 @@ export function Navbar() {
 
   return (
     <nav
-      className="navbar navbar-expand-lg border-bottom border-bottom-dark text-white bg-primary sticky-top"
-      data-bs-theme="dark"
+      className="navbar navbar-expand-lg border-bottom sticky-top"
+      data-bs-theme="light"
     >
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link
+          className={"navbar-brand fw-bold text-primary fs-3"}
+          aria-current="page"
+          href="/"
+          key="StudyTasks"
+        >
           StudyTasks
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -69,6 +74,16 @@ export function Navbar() {
                   );
                 })
               : null}
+            <li className="nav-item" key="login">
+              <Link
+                className={"btn btn-primary"}
+                aria-current="page"
+                href="/dashboard/login"
+                key="login"
+              >
+                Login
+              </Link>
+            </li>
           </ul>
         </div>
       </div>
