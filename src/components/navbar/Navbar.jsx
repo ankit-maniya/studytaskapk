@@ -30,7 +30,7 @@ export function Navbar() {
 
   return (
     <nav
-      className="navbar navbar-expand-lg border-bottom sticky-top"
+      className="navbar navbar-expand-lg border-bottom sticky-top bg-white"
       data-bs-theme="light"
     >
       <div className="container">
