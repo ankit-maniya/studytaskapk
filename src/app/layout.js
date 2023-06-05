@@ -3,6 +3,7 @@
 import { Navbar } from "@/components/navbar/Navbar";
 import "./globals.css";
 import "bootstrap/dist/css/bootstrap.css";
+import "font-awesome/css/font-awesome.min.css";
 import "../../scss/main.css";
 
 import { Inter } from "next/font/google";
