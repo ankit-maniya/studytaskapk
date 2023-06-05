@@ -20,11 +20,14 @@ const ContactUs = () => {
               width={350}
             />
           </div>
-          <div className="col-12 col-sm-6 bg-dark text-start d-flex justify-content-start align-items-center rounded-4">
+          <div className="col-12 col-sm-6 bg-purple text-start d-flex justify-content-start align-items-center rounded-4">
             <div className="p-2 p-sm-5 text-white ">
-              <h3 htmlFor="info">E-mail</h3>
-              <label htmlFor="info">
-                <a href="mailto:support@studytasks.online">
+              <h3>E-mail</h3>
+              <label htmlFor="email">
+                <a
+                  href="mailto:support@studytasks.online"
+                  className="text-white"
+                >
                   support@studytasks.online
                 </a>
               </label>
@@ -48,11 +51,13 @@ const ContactUs = () => {
               width={350}
             />
           </div>
-          <div className="col-12 col-sm-6 bg-dark text-start d-flex justify-content-start align-items-center rounded-4">
+          <div className="col-12 col-sm-6 bg-pink text-start d-flex justify-content-start align-items-center rounded-4">
             <div className="p-2 p-sm-5 text-white">
-              <h3 htmlFor="info ">Phone No</h3>
-              <label htmlFor="info ">
-                <a href="tel:+12668832602">+1 266 883 2602</a>
+              <h3>Phone No</h3>
+              <label htmlFor="phone">
+                <a href="tel:+12668832602" className="text-white">
+                  +1 266 883 2602
+                </a>
               </label>
             </div>
           </div>

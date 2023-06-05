@@ -12,6 +12,22 @@
     background-color: #f4f5f9;
 }
 
+.text-pink {
+    color: #F71D51;
+}
+
+.bg-pink {
+    background-color: #F71D51;
+}
+
+.text-purple {
+    color: #6E13AE;
+}
+
+.bg-purple {
+    background-color: #6E13AE;
+}
+
 .text-primary {
     color: #0e1320;
 }
