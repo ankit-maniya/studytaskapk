@@ -1,0 +1,92 @@
+export const brandList = [
+  {
+    name: "Node js",
+    imgName: "node-js.svg",
+    alt: "node-js",
+    border: "success",
+  },
+  {
+    name: "React js",
+    imgName: "reactjs.png",
+    alt: "react-js",
+    border: "info",
+  },
+  {
+    name: "Angular js",
+    imgName: "angularjs.svg",
+    alt: "node-js",
+    border: "danger",
+  },
+  {
+    name: "Flutter",
+    imgName: "flutter.svg",
+    alt: "Flutter",
+    border: "info",
+  },
+  {
+    name: "Android",
+    imgName: "android.svg",
+    alt: "Android",
+    border: "success",
+  },
+  {
+    name: "Apollo",
+    imgName: "apollo.svg",
+    alt: "Apollo",
+    border: "primary",
+  },
+  {
+    name: "GraphQl",
+    imgName: "graphql.svg",
+    alt: "GraphQl",
+    border: "danger",
+  },
+  {
+    name: "PHP",
+    imgName: "php.svg",
+    alt: "PHP",
+    border: "primary",
+  },
+  {
+    name: "MongoDB",
+    imgName: "mongodb.svg",
+    alt: "MongoDB",
+    border: "success",
+  },
+  {
+    name: "MySQL",
+    imgName: "mysql.svg",
+    alt: "MySQL",
+    border: "info",
+  },
+  {
+    name: "CSS3",
+    imgName: "css.svg",
+    alt: "CSS",
+    border: "info",
+  },
+  {
+    name: "HTML5",
+    imgName: "html5.svg",
+    alt: "HTML5",
+    border: "warning",
+  },
+  {
+    name: "Tailwind CSS",
+    imgName: "tailwind-css.svg",
+    alt: "Tailwind CSS",
+    border: "info",
+  },
+  {
+    name: "Vue JS",
+    imgName: "vue-js.svg",
+    alt: "Vue JS",
+    border: "success",
+  },
+  {
+    name: "Javascript",
+    imgName: "javascript.svg",
+    alt: "Javascript",
+    border: "warning",
+  },
+];

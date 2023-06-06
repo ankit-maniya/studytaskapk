@@ -33,7 +33,7 @@ const HowItWorks = () => {
                   <div className="timeline-icon">
                     <FontAwesomeIcon
                       icon={faComments}
-                      className="text-dark"
+                      className="text-dark img-fluid"
                       size="2x"
                       height={32}
                     />
@@ -55,6 +55,7 @@ const HowItWorks = () => {
                       icon={faCreditCard}
                       height={32}
                       size="2x"
+                      className="text-dark img-fluid"
                     />
                   </div>
                 </Link>
@@ -72,7 +73,7 @@ const HowItWorks = () => {
                   <div className="timeline-icon">
                     <FontAwesomeIcon
                       icon={faCouch}
-                      className="text-dark"
+                      className="text-dark img-fluid"
                       size="2x"
                       height={32}
                     />
@@ -91,7 +92,12 @@ const HowItWorks = () => {
                     revisions
                   </p>
                   <div className="timeline-icon">
-                    <FontAwesomeIcon icon={faDownload} size="2x" height={32} />
+                    <FontAwesomeIcon
+                      icon={faDownload}
+                      size="2x"
+                      height={32}
+                      className="text-dark img-fluid"
+                    />
                   </div>
                 </Link>
               </div>

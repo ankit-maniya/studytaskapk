@@ -15,14 +15,14 @@ const ContactUs = () => {
               className="img-fluid"
               src="/email_delivery_new.png"
               alt="test"
-              loading="lazy"
+              loading="eager"
               height={300}
               width={350}
             />
           </div>
           <div className="col-12 col-sm-6 bg-purple text-start d-flex justify-content-start align-items-center rounded-4">
             <div className="p-2 p-sm-5 text-white ">
-              <h3>E-mail</h3>
+              <h3>E-mail 📧</h3>
               <label htmlFor="email">
                 <a
                   href="mailto:support@studytasks.online"
@@ -46,14 +46,14 @@ const ContactUs = () => {
               className="img-fluid "
               src="/contact_us_new.png"
               alt="test"
-              loading="lazy"
+              loading="eager"
               height={300}
               width={350}
             />
           </div>
           <div className="col-12 col-sm-6 bg-pink text-start d-flex justify-content-start align-items-center rounded-4">
             <div className="p-2 p-sm-5 text-white">
-              <h3>Phone No</h3>
+              <h3>Phone No 🤙</h3>
               <label htmlFor="phone">
                 <a href="tel:+12668832602" className="text-white">
                   +1 266 883 2602

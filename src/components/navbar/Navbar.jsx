@@ -4,7 +4,9 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 export function Navbar() {
-  const pathname = usePathname();
+  const pathName = usePathname();
+
+  console.log("pathName :: ", pathName);
   const allLinks = [
     {
       id: 1,
@@ -30,12 +32,12 @@ export function Navbar() {
 
   return (
     <nav
-      className="navbar navbar-expand-lg border-bottom sticky-top bg-white"
+      className="navbar navbar-expand-lg border-bottom sticky-top bg-white shadow"
       data-bs-theme="light"
     >
       <div className="container">
         <Link
-          className={"navbar-brand fw-bold text-primary fs-3"}
+          className="navbar-brand fw-bold text-primary fs-3"
           aria-current="page"
           href="/"
           key="StudyTasks"
@@ -57,13 +59,16 @@ export function Navbar() {
           <ul className="navbar-nav ms-auto">
             {allLinks && allLinks.length > 0
               ? allLinks.map((link, key) => {
-                  console.log("pathname :: ", pathname);
-                  const isActive = pathname.startsWith(link.href.split("/")[1]);
+                  const isActive = pathName == link.href;
 
                   return (
                     <li className="nav-item" key={link.id}>
                       <Link
-                        className={"nav-link"}
+                        className={`nav-link text-center ${
+                          isActive
+                            ? "text-primary border-bottom border-5 border-primary rounded"
+                            : ""
+                        }`}
                         aria-current="page"
                         href={link.href}
                         key={link.id}
@@ -74,16 +79,16 @@ export function Navbar() {
                   );
                 })
               : null}
-            <li className="nav-item" key="login">
+            {/* <li className="nav-item ms-5" key="login">
               <Link
-                className={"btn btn-primary"}
+                className={"nav-link shadow"}
                 aria-current="page"
                 href="/dashboard/login"
                 key="login"
               >
                 Login
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

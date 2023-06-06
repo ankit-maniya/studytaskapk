@@ -9,12 +9,12 @@ const Home = () => {
     <header className="masthead">
       <div className="container vh-100 d-block d-lg-flex justify-content-center align-items-center">
         <div className="row m-0 p-0 mt-2">
-          <div className="col-12 col-sm-6 d-flex justify-content-center align-items-center order-sm-1">
+          <div className="col-12  col-sm-6 d-flex justify-content-center align-items-center order-sm-1">
             <Image
-              className="img-fluid"
+              className="img-fluid "
               src="/completed_tasks.png"
               alt="test"
-              loading="lazy"
+              loading="eager"
               height={300}
               width={350}
             />
@@ -30,7 +30,7 @@ const Home = () => {
               Discounted prices + Trustworthy writers = Happy clients 😊
             </div>
             <Link
-              className="btn btn-primary btn-xl text-uppercase"
+              className="btn btn-primary btn-xl text-uppercase shadow"
               href="/contactus"
             >
               Contact Us
