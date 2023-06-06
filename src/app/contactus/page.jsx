@@ -28,7 +28,7 @@ const ContactUs = () => {
                   href="mailto:support@studytasks.online"
                   className="text-white"
                 >
-                  support@studytasks.online
+                  ankitmaniya7450@gmail.com
                 </a>
               </label>
             </div>
