@@ -3,10 +3,10 @@
 import Head from "next/head";
 import Script from "next/script";
 import { Navbar } from "@/components/navbar/Navbar";
-import "./globals.css";
+
 import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.min.css";
-import "../../scss/main.css";
+import "./globals.css";
 
 import { Inter } from "next/font/google";
 import Footer from "@/components/footer/Footer";
