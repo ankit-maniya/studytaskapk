@@ -1,6 +1,15 @@
 import Image from "next/image";
 import React from "react";
 
+export const metadata = {
+  title: "Our contacts",
+  description:
+    "Reach us by any means available \n email: ankitmaniya7450@gmail.com \n contact: 12668832602",
+  alternates: {
+    canonical: "/contactus",
+  },
+};
+
 const ContactUs = () => {
   return (
     <header className="masthead">

@@ -1,11 +1,17 @@
-"use client";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import "./service.css";
 import Image from "next/image";
 import { brandList } from "@/utils/brands";
 import { serviceList } from "@/utils/services";
+
+export const metadata = {
+  title: "Our Services",
+  description: "Development, Design, Writing and Fast Delivery",
+  alternates: {
+    canonical: "/services",
+  },
+};
 
 const Services = () => {
   return (

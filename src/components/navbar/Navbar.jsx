@@ -10,7 +10,6 @@ const styles = Pacifico({ subsets: ["cyrillic"], weight: "400" });
 export function Navbar() {
   const pathName = usePathname();
 
-  console.log("pathName :: ", pathName);
   const allLinks = [
     {
       id: 1,

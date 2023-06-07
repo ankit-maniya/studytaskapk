@@ -9,6 +9,14 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
+export const metadata = {
+  title: "How We Operate",
+  description: "Just 4 Easy Steps",
+  alternates: {
+    canonical: "/how-it-works",
+  },
+};
+
 const HowItWorks = () => {
   return (
     <section className="bg-gray py-2">
