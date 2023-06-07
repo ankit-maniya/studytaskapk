@@ -3,6 +3,10 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+import { Pacifico } from "next/font/google";
+
+const styles = Pacifico({ subsets: ["cyrillic"], weight: "400" });
+
 export function Navbar() {
   const pathName = usePathname();
 
@@ -37,7 +41,7 @@ export function Navbar() {
     >
       <div className="container">
         <Link
-          className="navbar-brand fw-bold text-primary fs-3"
+          className={`navbar-brand fw-bold text-primary fs-3 styles.className ${styles.className}`}
           aria-current="page"
           href="/"
           key="StudyTasks"
