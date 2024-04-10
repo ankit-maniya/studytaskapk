@@ -25,7 +25,7 @@ export default async function Image() {
           justifyContent: "center",
         }}
       >
-        Will you write my assignments for me? YES WE WILL 😊.
+        Will you teach me assignment for free? YES WE WILL 😊.
       </div>
     ),
     // ImageResponse options

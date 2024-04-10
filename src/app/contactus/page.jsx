@@ -45,7 +45,7 @@ const ContactUs = () => {
         </div>
         <div className="row m-0 p-0 my-2">
           <label className="fs-2">
-            Now is the time to contact and get the professional writing help you
+            Now is the time to contact and get the professional teaching help you
             need. We really want to help you!
           </label>
         </div>

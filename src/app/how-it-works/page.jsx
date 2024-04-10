@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faComments,
   faCouch,
-  faCreditCard,
-  faDownload,
+  faEdit,
+  faHeart,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link";
 
@@ -36,7 +36,7 @@ const HowItWorks = () => {
                   <div className="timeline-year">01</div>
                   <h3 className="title">Describe your needs</h3>
                   <p className="description">
-                    Enter necessary information into the order form
+                    Request to teach us what you need
                   </p>
                   <div className="timeline-icon">
                     <FontAwesomeIcon
@@ -54,13 +54,13 @@ const HowItWorks = () => {
                   className="timeline-content text-decoration-none"
                 >
                   <div className="timeline-year">02</div>
-                  <h3 className="title">Provide payment details</h3>
+                  <h3 className="title">Free Support</h3>
                   <p className="description">
-                    Choose one of the dozen available payment methods
+                    We offer our support to students at no cost
                   </p>
                   <div className="timeline-icon">
                     <FontAwesomeIcon
-                      icon={faCreditCard}
+                      icon={faHeart}
                       height={32}
                       size="2x"
                       className="text-dark img-fluid"
@@ -74,9 +74,9 @@ const HowItWorks = () => {
                   className="timeline-content text-decoration-none"
                 >
                   <div className="timeline-year">03</div>
-                  <h3 className="title">Relax and enjoy yourself</h3>
+                  <h3 className="title">Free to choose</h3>
                   <p className="description">
-                    Let our team take care of your papers while you res
+                    Attend in-person classes or join live online platforms
                   </p>
                   <div className="timeline-icon">
                     <FontAwesomeIcon
@@ -94,14 +94,13 @@ const HowItWorks = () => {
                   className="timeline-content text-decoration-none"
                 >
                   <div className="timeline-year">04</div>
-                  <h3 className="title">Download the Assignment</h3>
+                  <h3 className="title">Revision of Assignment</h3>
                   <p className="description">
-                    Preview and approve the Assignment if you don’t require
-                    revisions
+                    Preview and request revisions if needed
                   </p>
                   <div className="timeline-icon">
                     <FontAwesomeIcon
-                      icon={faDownload}
+                      icon={faEdit}
                       size="2x"
                       height={32}
                       className="text-dark img-fluid"

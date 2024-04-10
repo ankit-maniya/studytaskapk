@@ -1,25 +1,25 @@
 import {
+  faChalkboardTeacher,
   faCode,
-  faFileWord,
+  faLifeRing,
   faPenRuler,
-  faTruckFast,
 } from "@fortawesome/free-solid-svg-icons";
 
 export const serviceList = [
-  {
-    icon: faCode,
-    name: "Development",
-  },
   {
     icon: faPenRuler,
     name: "Design",
   },
   {
-    icon: faFileWord,
-    name: "Writing",
+    icon: faCode,
+    name: "Develop",
   },
   {
-    icon: faTruckFast,
-    name: "Fast Delivery",
+    icon: faLifeRing,
+    name: "Support",
+  },
+  {
+    icon: faChalkboardTeacher,
+    name: "Teaching",
   },
 ];

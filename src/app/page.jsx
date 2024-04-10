@@ -21,13 +21,13 @@ const Home = () => {
           </div>
           <div className="col-12 col-sm-6 text-center text-sm-start order-xs-2">
             <div className="fs-1  fw-bold text-uppercase mb-2 text-primary">
-              Will you write my Assignments for me?
+              Will you teach me assignment for free?
             </div>
             <div className="fs-2 mb-2 fw-bold text-dark text-center text-sm-start">
               Yes, we will
             </div>
             <div className="mb-5 fs-4 fs-5-sm text-secondary text-center text-sm-start ">
-              Discounted prices + Trustworthy writers = Happy clients 😊
+            Free + In-person/Live Support = Happy Students 😊
             </div>
             <Link
               className="btn btn-primary btn-xl text-uppercase shadow"

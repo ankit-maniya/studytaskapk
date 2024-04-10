@@ -24,11 +24,11 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   metadataBase: "https://studytaskapk.vercel.app/",
   title: {
-    default: "Will you write my assignments for me?",
+    default: "Will you teach me assignment for free?",
     template: "%s | StudyTask",
   },
   description:
-    "Yes, we will - Discounted prices + Trustworthy writers = Happy clients 😊",
+    "Yes, we will - Free + In-person/Live Support = Happy Students 😊",
 };
 
 export default function RootLayout({ children }) {

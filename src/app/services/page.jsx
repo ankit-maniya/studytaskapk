@@ -7,7 +7,7 @@ import { serviceList } from "@/utils/services";
 
 export const metadata = {
   title: "Our Services",
-  description: "Development, Design, Writing and Fast Delivery",
+  description: "Development, Design, Support and Teaching Services",
   alternates: {
     canonical: "/services",
   },
